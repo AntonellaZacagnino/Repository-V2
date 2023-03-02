@@ -1,0 +1,40 @@
+{
+    "projects" : [
+        {
+            "id": 1,
+            "name":"Nuarielle",
+            "description":"Proyecto realizado para el curso de React.js de Coderhouse. E-commerce realizado en React y Firebase para la base de datos.",
+            "img":"url('nuarielle.png')",
+            "imgDesktop":"nuarielle-desktop.png",
+            "live":"https://nuarielle.netlify.app/",
+            "repo":"https://github.com/AntonellaZacagnino/Nuarielle"
+        },
+        {
+            "id": 2,
+            "name":"Aerolab Challenge",
+            "description":"Frontend Challenge para la empresa Aerolab, realizado con React.js y Next.js",
+            "img":"url('aerolab.png')",
+            "imgDesktop":"aerolab-desktop.png",
+            "live":"https://azacagnino-aerolab-challenge.vercel.app/",
+            "repo":"https://github.com/AntonellaZacagnino/aerolab-challenge"
+        },
+        {
+            "id": 3,
+            "name":"Pokedex",
+            "description":"Frontend Challenge para la empresa Zarego, realizado en React.js y Next.js",
+            "img":"url('pokedex.png')",
+            "imgDesktop":"pokedex-desktop.png",
+            "live":"https://pokedex-alpha-one.vercel.app/",
+            "repo":"https://github.com/AntonellaZacagnino/zarego-challenge"
+        },
+        {
+            "id": 4,
+            "name":"Liteflix",
+            "description":"Frontend Challenge para la empresa Litebox, realizado en React.js",
+            "img":"url('liteflix.png')",
+            "imgDesktop":"liteflix-desktop.png",
+            "live":"https://litleflix-azacagnino.netlify.app/",
+            "repo":"https://github.com/AntonellaZacagnino/liteflix"
+        }
+    ]
+}
