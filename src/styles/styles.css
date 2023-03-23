@@ -453,4 +453,389 @@
 .modal-container .modal-body .buttons a:hover {
   background: #C65470;
   cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .modal-container .close {
+    font-size: 55px;
+    top: 7vh;
+    left: 46vh;
+  }
+  .modal-container .modal-body {
+    width: 80vw;
+    padding: 50px 30px 30px;
+    flex-direction: column;
+  }
+  .modal-container .modal-body .buttons a {
+    font-size: 13px;
+  }
+  .modal-container .modal-body img {
+    width: 90vw;
+  }
+  .container .title {
+    margin-left: 12vh;
+  }
+  .container .title span {
+    font-size: 25px;
+  }
+  .container .main-page .contact-container .emptyDiv {
+    display: none;
+  }
+  .container .main-page .contact-container .contact {
+    width: 100%;
+  }
+  .container .main-page .contact-container .contact .data .download {
+    font-size: 16px;
+  }
+  .container .main-page .contact-container .contact .data .icons img {
+    margin: 0 30px;
+  }
+  .container .main-page .contact-container .contact .data p {
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .container .main-page .projects-container .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .main-page .projects-container .projects h6 {
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .container .main-page .aboutMe-container .skills .skill {
+    height: 20vh;
+    justify-content: center;
+  }
+  .container .main-page .aboutMe-container .skills .skills-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .main-page .aboutMe-container .skills .skills-images img {
+    width: 80px;
+    height: 80px;
+  }
+  .container .main-page .aboutMe-container .aboutMe p {
+    font-size: 18px;
+    margin-left: 8vh;
+    margin-top: 50vw;
+    width: 73%;
+  }
+  .container .main-page .aboutMe-container .aboutMe img {
+    position: relative;
+    height: 26vh;
+    margin: unset;
+    right: 66vw;
+    top: 41vw;
+    padding: 4vw;
+  }
+  .container .start-text h1 {
+    font-size: 28px;
+  }
+  .container .start-text span {
+    font-size: 18px;
+  }
+  .container .circles .circle-1 {
+    height: 37vw;
+    width: 37vw;
+    top: 82vh;
+    right: 81vw;
+  }
+  .container .circles .circle-2 {
+    height: 28vw;
+    width: 28vw;
+    top: 86vh;
+    right: 35vh;
+  }
+  .container .circles .circle-3 {
+    height: 20vw;
+    width: 20vw;
+    top: 90vh;
+    left: 7vh;
+  }
+  .container .circles .circle-4 {
+    height: 34vw;
+    width: 34vw;
+    top: 85vh;
+    left: 13vh;
+  }
+  .container .circles .circle-5 {
+    height: 15vh;
+    width: 15vh;
+    top: 89vh;
+    right: 10vh;
+  }
+  .container .circles .circle-6 {
+    height: 34vw;
+    width: 34vw;
+    top: 86vh;
+    right: 0vh;
+  }
+  .container .circles .circle-7 {
+    height: 43vw;
+    width: 43vw;
+    top: 82vh;
+    left: 38vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .modal-container .close {
+    font-size: 70px;
+    top: 7.2%;
+    left: 76%;
+  }
+  .modal-container .modal-body {
+    width: 77vw;
+    padding: 50px 30px 30px;
+    flex-direction: column;
+    left: 2.7%;
+  }
+  .modal-container .modal-body .buttons a {
+    font-size: 22px;
+  }
+  .modal-container .modal-body img {
+    width: 70vw;
+  }
+  .container .title {
+    margin-left: 6vh;
+  }
+  .container .title span {
+    font-size: 36px;
+  }
+  .container .main-page .contact-container .emptyDiv {
+    display: none;
+  }
+  .container .main-page .contact-container .contact {
+    width: 88%;
+  }
+  .container .main-page .contact-container .contact .data .download {
+    font-size: 26px;
+  }
+  .container .main-page .contact-container .contact .data .icons img {
+    margin: 0 30px;
+  }
+  .container .main-page .contact-container .contact .data p {
+    font-size: 27px;
+    line-height: 41px;
+    text-align: center;
+  }
+  .container .main-page .projects-container .projects {
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+  }
+  .container .main-page .projects-container .projects h6 {
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .container .main-page .projects-container .projects .project p {
+    font-size: 24px;
+  }
+  .container .main-page .aboutMe-container .skills {
+    width: 90vw;
+  }
+  .container .main-page .aboutMe-container .skills .skill {
+    height: 20vh;
+    justify-content: center;
+  }
+  .container .main-page .aboutMe-container .skills .skills-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .main-page .aboutMe-container .skills .skills-images img {
+    width: 80px;
+    height: 80px;
+  }
+  .container .main-page .aboutMe-container .aboutMe p {
+    font-size: 26px;
+    margin-left: 8vh;
+    margin-top: 50vw;
+  }
+  .container .main-page .aboutMe-container .aboutMe img {
+    position: relative;
+    height: 1%;
+    margin: unset;
+    right: 52vw;
+    top: 32vw;
+    padding: 2vh;
+    width: 22%;
+  }
+  .container .start-text {
+    width: 88%;
+  }
+  .container .start-text h1 {
+    font-size: 34px;
+  }
+  .container .start-text button {
+    font-size: 22px;
+  }
+  .container .circles .circle-1 {
+    height: 34vw;
+    width: 34vw;
+    top: 80%;
+    right: 80%;
+  }
+  .container .circles .circle-2 {
+    height: 28vw;
+    width: 28vw;
+    top: 89%;
+    right: 75%;
+  }
+  .container .circles .circle-3 {
+    height: 20vw;
+    width: 20vw;
+    top: 100%;
+    left: 13%;
+  }
+  .container .circles .circle-4 {
+    height: 34vw;
+    width: 34vw;
+    top: 90%;
+    left: 23%;
+  }
+  .container .circles .circle-5 {
+    height: 25vh;
+    width: 25vh;
+    top: 101%;
+    right: 33%;
+  }
+  .container .circles .circle-6 {
+    height: 30vw;
+    width: 30vw;
+    top: 90%;
+    right: 11%;
+  }
+  .container .circles .circle-7 {
+    height: 30vw;
+    width: 30vw;
+    top: 84%;
+    left: 68%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .modal-container .close {
+    font-size: 55px;
+    top: 8.5%;
+    left: 69%;
+  }
+  .modal-container .modal-body {
+    width: 50vw;
+    padding: 50px 126px 30px;
+    flex-direction: column;
+    left: 1.8%;
+  }
+  .modal-container .modal-body .buttons a {
+    font-size: 18px;
+  }
+  .modal-container .modal-body img {
+    width: 70vw;
+  }
+  .container .title {
+    margin-left: 6vh;
+  }
+  .container .title span {
+    font-size: 36px;
+  }
+  .container .main-page .contact-container .emptyDiv {
+    display: none;
+  }
+  .container .main-page .contact-container .contact {
+    width: 88%;
+  }
+  .container .main-page .contact-container .contact .data .download {
+    font-size: 26px;
+  }
+  .container .main-page .contact-container .contact .data .icons img {
+    margin: 0 30px;
+  }
+  .container .main-page .contact-container .contact .data p {
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+  }
+  .container .main-page .projects-container .projects {
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+  }
+  .container .main-page .projects-container .projects h6 {
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .container .main-page .projects-container .projects .project p {
+    font-size: 30px;
+  }
+  .container .main-page .aboutMe-container .skills {
+    width: unset;
+  }
+  .container .main-page .aboutMe-container .skills .skill {
+    height: 20vh;
+    justify-content: center;
+  }
+  .container .main-page .aboutMe-container .skills .skills-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .main-page .aboutMe-container .skills .skills-images img {
+    width: 80px;
+    height: 80px;
+  }
+  .container .main-page .aboutMe-container .aboutMe p {
+    font-size: 26px;
+    margin-left: 8vh;
+  }
+  .container .main-page .aboutMe-container .aboutMe img {
+    height: 1%;
+    padding: 2vh;
+    width: 22%;
+    margin: 27vh 10vh;
+  }
+  .container .start-text h1 {
+    font-size: 28px;
+  }
+  .container .start-text span {
+    font-size: 18px;
+  }
+  .container .circles .circle-1 {
+    height: 34vw;
+    width: 34vw;
+    top: 65%;
+    right: 85%;
+  }
+  .container .circles .circle-2 {
+    height: 28vw;
+    width: 28vw;
+    top: 77%;
+    right: 79%;
+  }
+  .container .circles .circle-3 {
+    height: 20vw;
+    width: 20vw;
+    top: 89%;
+    left: 17%;
+  }
+  .container .circles .circle-4 {
+    height: 34vw;
+    width: 34vw;
+    top: 80%;
+    left: 32%;
+  }
+  .container .circles .circle-5 {
+    height: 25vh;
+    width: 25vh;
+    top: 91%;
+    right: 26%;
+  }
+  .container .circles .circle-6 {
+    height: 25vw;
+    width: 25vw;
+    top: 81%;
+    right: 5%;
+  }
+  .container .circles .circle-7 {
+    height: 30vw;
+    width: 30vw;
+    top: 74%;
+    left: 83%;
+  }
 }/*# sourceMappingURL=styles.css.map */
