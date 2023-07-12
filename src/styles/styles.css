@@ -45,7 +45,9 @@
   left: 1vh;
 }
 .container .main-page {
-  background-color: #B2002B;
+  /* background-color: #B2002B; */
+  background-image: url("/public/background.png");
+  background-attachment: fixed;
   opacity: 0;
   width: 100vw;
   position: absolute;
