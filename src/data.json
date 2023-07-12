@@ -35,6 +35,15 @@
             "imgDesktop":"liteflix-desktop.png",
             "live":"https://litleflix-azacagnino.netlify.app/",
             "repo":"https://github.com/AntonellaZacagnino/liteflix"
+        },
+        {
+            "id": 5,
+            "name":"FletesJM",
+            "description":"Página web para empresa de fletes y cargas de materiales.",
+            "img":"url('fletesjm.png')",
+            "imgDesktop":"fletesjm-desktop.png",
+            "live":"https://www.fletesjm.com.ar/",
+            "repo":"https://github.com/AntonellaZacagnino/FletesJM"
         }
     ]
 }

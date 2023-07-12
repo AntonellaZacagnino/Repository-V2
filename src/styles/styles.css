@@ -219,6 +219,7 @@
   height: 20vh;
   border-radius: 20vh;
   border: dotted 4px #C65470;
+  cursor: pointer;
 }
 .container .main-page .projects-container .projects .project .image:hover {
   opacity: 0.6;
